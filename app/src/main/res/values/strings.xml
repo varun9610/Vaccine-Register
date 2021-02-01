@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Vaccine Register</string>
+    <string name="slide_one_top_text">Register</string>
+    <string name="slide_two_top_text">Manage</string>
+    <string name="slide_three_top_text">Digital</string>
+    <string name="slide_one_down_text">Register with just a simple click of a button!</string>
+    <string name="slide_two_down_text">Manage all vaccine appointment with ease!</string>
+    <string name="slide_three_down_text">Everything is digital, so you can do social distancing!</string>
 </resources>
