@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titlePage">
+    <fragment
+        android:id="@+id/titlePage"
+        android:name="com.android.vaccineregister.TitlePage"
+        android:label="fragment_title_page"
+        tools:layout="@layout/fragment_title_page">
+        <action
+            android:id="@+id/action_titlePage_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_titlePage_to_postLoginHomepageFragment"
+            app:destination="@id/postLoginHomepageFragment" />
+        <action
+            android:id="@+id/action_titlePage_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_titlePage_to_locateCentersFragment"
+            app:destination="@id/locateCentersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.android.vaccineregister.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_titlePage"
+            app:destination="@id/titlePage"
+            app:popUpTo="@id/titlePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.android.vaccineregister.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/action_registrationFragment_to_titlePage"
+            app:destination="@id/titlePage"
+            app:popUpTo="@id/titlePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/locateCentersFragment"
+        android:name="com.android.vaccineregister.LocateCentersFragment"
+        android:label="fragment_locate_centers"
+        tools:layout="@layout/fragment_locate_centers">
+        <action
+            android:id="@+id/action_locateCentersFragment_to_postLoginHomepageFragment"
+            app:destination="@id/postLoginHomepageFragment"
+            app:popUpTo="@id/postLoginHomepageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postLoginHomepageFragment"
+        android:name="com.android.vaccineregister.PostLoginHomepageFragment"
+        android:label="fragment_post_login_homepage"
+        tools:layout="@layout/fragment_post_login_homepage">
+        <action
+            android:id="@+id/action_postLoginHomepageFragment_to_locateCentersFragment"
+            app:destination="@id/locateCentersFragment" />
+        <action
+            android:id="@+id/action_postLoginHomepageFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.android.vaccineregister.StatusFragment"
+        android:label="fragment_status"
+        tools:layout="@layout/fragment_status" />
+</navigation>
