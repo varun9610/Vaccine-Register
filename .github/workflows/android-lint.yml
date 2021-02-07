@@ -19,4 +19,4 @@ jobs:
       - run: ./gradlew lint
       - uses: yutailang0119/action-android-lint@v1.0.2
         with:
-          xml_path: /lint-results.xml
+          xml_path: ./lint-results.xml
