@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Vaccine Register</string>
+    <string name="slide_one_top_text">Register</string>
+    <string name="slide_two_top_text">Manage</string>
+    <string name="slide_three_top_text">Digital</string>
+    <string name="slide_one_down_text">Register with just a simple click of a button!</string>
+    <string name="slide_two_down_text">Manage all vaccine appointment with ease!</string>
+    <string name="slide_three_down_text">Everything is digital, so you can do social distancing!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_login">Login</string>
+    <string name="string_email">Email ID</string>
+    <string name="string_password">Password</string>
+    <string name="string_login_enterpassword_hint">Enter Password</string>
+    <string name="string_btn_submit">Submit</string>
+    <string name="string_signup">Sign up</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name_hint">Enter Full Name</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+    <string name="emailid_hint">Enter Email ID</string>
+    <string name="locate_centers">Locate Centers</string>
+    <string name="register_for_vaccine">Register for Vaccine</string>
+    <string name="check_status">Check Status</string>
     <string name="book_appointment">Book Appointment</string>
 </resources>
