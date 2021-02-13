@@ -20,4 +20,7 @@
     <string name="phone_number_hint">Enter Phone Number</string>
     <string name="emailid_hint">Enter Email ID</string>
     <string name="locate_centers">Locate Centers</string>
+    <string name="register_for_vaccine">Register for Vaccine</string>
+    <string name="check_status">Check Status</string>
+    <string name="book_appointment">Book Appointment</string>
 </resources>
