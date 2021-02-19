@@ -23,4 +23,5 @@
     <string name="register_for_vaccine">Register for Vaccine</string>
     <string name="check_status">Check Status</string>
     <string name="book_appointment">Book Appointment</string>
+    <string name="locate_centers_near_you">Locate centers near you.</string>
 </resources>
