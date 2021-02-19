@@ -31,6 +31,9 @@
             android:id="@+id/action_loginFragment_to_titlePage"
             app:destination="@id/titlePage"
             app:popUpTo="@id/titlePage" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
@@ -69,4 +72,13 @@
         android:name="com.android.vaccineregister.StatusFragment"
         android:label="fragment_status"
         tools:layout="@layout/fragment_status" />
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.android.vaccineregister.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password">
+        <action
+            android:id="@+id/action_forgetPasswordFragment_to_titlePage"
+            app:destination="@id/titlePage" />
+    </fragment>
 </navigation>
