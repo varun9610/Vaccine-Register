@@ -19,7 +19,7 @@ class TitlePage : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentTitlePageBinding.inflate(inflater, container, false)
 
         binding.btnloginTitlePage.setOnClickListener { v: View ->
