@@ -29,4 +29,8 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="signup_to_get_started">Sign up to get started</string>
     <string name="contentdesc_signup_img">Sign Up Image</string>
+    <string name="string_about_us">About us</string>
+    <string name="string_contact_us">Contact us</string>
+    <string name="string_guidelines">Guidelines</string>
+    <string name="string_log_out">Log Out</string>
 </resources>
