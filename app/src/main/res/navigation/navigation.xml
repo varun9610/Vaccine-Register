@@ -66,6 +66,9 @@
         <action
             android:id="@+id/action_postLoginHomepageFragment_to_statusFragment"
             app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_postLoginHomepageFragment_to_registerforVaccineFragment"
+            app:destination="@id/registerforVaccineFragment" />
     </fragment>
     <fragment
         android:id="@+id/statusFragment"
@@ -80,5 +83,23 @@
         <action
             android:id="@+id/action_forgetPasswordFragment_to_titlePage"
             app:destination="@id/titlePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerforVaccineFragment"
+        android:name="com.android.vaccineregister.RegisterforVaccineFragment"
+        android:label="fragment_registerfor_vaccine"
+        tools:layout="@layout/fragment_registerfor_vaccine">
+        <action
+            android:id="@+id/action_registerforVaccineFragment_to_registerforVaccineP2"
+            app:destination="@id/registerforVaccineP2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerforVaccineP2"
+        android:name="com.android.vaccineregister.RegisterforVaccineP2"
+        android:label="fragment_registerfor_vaccine_p2"
+        tools:layout="@layout/fragment_registerfor_vaccine_p2">
+        <action
+            android:id="@+id/action_registerforVaccineP2_to_postLoginHomepageFragment"
+            app:destination="@id/postLoginHomepageFragment" />
     </fragment>
 </navigation>

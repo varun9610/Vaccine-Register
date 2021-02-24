@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ids">
+        <item>Driving License</item>
+        <item>Aadhar Card</item>
+        <item>Passport</item>
+        <item>Election Card</item>
+    </string-array>
+</resources>

@@ -33,4 +33,17 @@
     <string name="string_contact_us">Contact us</string>
     <string name="string_guidelines">Guidelines</string>
     <string name="string_log_out">Log Out</string>
+    <string name="string_map">Map</string>
+    <string name="string_name">Name</string>
+    <string name="string_dob">Birth Date</string>
+    <string name="string_gender">Gender</string>
+    <string name="string_female">Female</string>
+    <string name="string_male">Male</string>
+    <string name="string_mobile">Mobile</string>
+    <string name="hint_dob">Enter Date of Birth</string>
+    <string name="hint_mobile">Enter Mobile Number</string>
+    <string name="string_id">ID Card</string>
+    <string name="hint_enter_id">Enter Id</string>
+    <string name="string_address">Address</string>
+    <string name="string_next">Next</string>
 </resources>
