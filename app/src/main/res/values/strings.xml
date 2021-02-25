@@ -46,4 +46,6 @@
     <string name="hint_enter_id">Enter Id</string>
     <string name="string_address">Address</string>
     <string name="string_next">Next</string>
+    <string name="string_forgot_password">Forgot your password?</string>
+    <string name="hint_enter_email">Enter Email</string>
 </resources>
