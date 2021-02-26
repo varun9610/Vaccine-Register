@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/activity_after_login.xml" value="0.2743589743589744" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/activity_after_login.xml" value="0.25" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/activity_main.xml" value="0.29204431017119836" />
-        <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_forget_password.xml" value="0.2743589743589744" />
+        <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_forget_password.xml" value="0.25" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_locate_centers.xml" value="0.2743589743589744" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_login.xml" value="0.2743589743589744" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_post_login_homepage.xml" value="0.2743589743589744" />

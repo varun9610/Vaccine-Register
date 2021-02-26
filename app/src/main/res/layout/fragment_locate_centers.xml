@@ -40,20 +40,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapView">
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="207dp"
-            android:layout_height="match_parent"
-            android:gravity="center|center_horizontal"
-            android:text="@string/string_map"
-            android:textAlignment="gravity"
-            android:textAllCaps="false"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="bold" />
-
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toBottomOf="@+id/mapView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
