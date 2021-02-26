@@ -44,6 +44,12 @@
             android:id="@+id/action_registrationFragment_to_titlePage"
             app:destination="@id/titlePage"
             app:popUpTo="@id/titlePage" />
+        <action
+            android:id="@+id/action_registrationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/locateCentersFragment"

@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.android.vaccineregister.databinding.FragmentRegistrationBinding
 
 
@@ -23,6 +24,13 @@ class RegistrationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentRegistrationBinding.inflate(inflater, container, false)
+        binding.logintv.setOnClickListener {
+            it.findNavController().navigate(R.id.action_registrationFragment_to_loginFragment)
+        }
+        binding.forgotpasswordtv2.setOnClickListener {
+            it.findNavController()
+                .navigate(R.id.action_registrationFragment_to_forgetPasswordFragment)
+        }
         return binding.root
     }
 
