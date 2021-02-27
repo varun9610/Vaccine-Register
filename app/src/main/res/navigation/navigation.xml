@@ -74,7 +74,8 @@
             app:destination="@id/statusFragment" />
         <action
             android:id="@+id/action_postLoginHomepageFragment_to_registerforVaccineFragment"
-            app:destination="@id/registerforVaccineFragment" />
+            app:destination="@id/registerforVaccineFragment"
+            app:popUpTo="@id/postLoginHomepageFragment" />
     </fragment>
     <fragment
         android:id="@+id/statusFragment"
@@ -106,6 +107,17 @@
         tools:layout="@layout/fragment_registerfor_vaccine_p2">
         <action
             android:id="@+id/action_registerforVaccineP2_to_postLoginHomepageFragment"
-            app:destination="@id/postLoginHomepageFragment" />
+            app:destination="@id/postLoginHomepageFragment"
+            app:popUpTo="@id/postLoginHomepageFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument android:name="birthdate" />
+        <argument android:name="gender" />
+        <argument android:name="emailid" />
+        <argument android:name="moble" />
+        <argument android:name="id_selected" />
+        <argument android:name="id_number" />
+        <argument android:name="address" />
     </fragment>
 </navigation>
