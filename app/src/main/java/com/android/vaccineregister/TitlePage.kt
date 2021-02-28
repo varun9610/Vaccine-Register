@@ -1,11 +1,10 @@
 package com.android.vaccineregister
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import com.android.vaccineregister.databinding.FragmentTitlePageBinding
 
 class TitlePage : Fragment() {
@@ -31,8 +30,23 @@ class TitlePage : Fragment() {
         binding.btnsignupTitlePage.setOnClickListener { v: View ->
             v.findNavController().navigate(R.id.action_titlePage_to_registrationFragment)
         }
+
+        setHasOptionsMenu(true)
+
         // Inflate the layout for this fragment
         return binding.root
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.before_login, menu)
+    }
+
+    // Method is called when an option is selected from options menu
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
+                || super.onOptionsItemSelected(item)
+
     }
 
     override fun onDestroyView() {

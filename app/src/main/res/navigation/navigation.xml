@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/titlePage"
         android:name="com.android.vaccineregister.TitlePage"
-        android:label="fragment_title_page"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_title_page">
         <action
             android:id="@+id/action_titlePage_to_loginFragment"
@@ -25,7 +25,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.android.vaccineregister.LoginFragment"
-        android:label="fragment_login"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_titlePage"
@@ -38,7 +38,7 @@
     <fragment
         android:id="@+id/registrationFragment"
         android:name="com.android.vaccineregister.RegistrationFragment"
-        android:label="fragment_registration"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_registration">
         <action
             android:id="@+id/action_registrationFragment_to_titlePage"
@@ -54,7 +54,7 @@
     <fragment
         android:id="@+id/locateCentersFragment"
         android:name="com.android.vaccineregister.LocateCentersFragment"
-        android:label="fragment_locate_centers"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_locate_centers">
         <action
             android:id="@+id/action_locateCentersFragment_to_postLoginHomepageFragment"
@@ -64,7 +64,7 @@
     <fragment
         android:id="@+id/postLoginHomepageFragment"
         android:name="com.android.vaccineregister.PostLoginHomepageFragment"
-        android:label="fragment_post_login_homepage"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_post_login_homepage">
         <action
             android:id="@+id/action_postLoginHomepageFragment_to_locateCentersFragment"
@@ -80,12 +80,12 @@
     <fragment
         android:id="@+id/statusFragment"
         android:name="com.android.vaccineregister.StatusFragment"
-        android:label="fragment_status"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_status" />
     <fragment
         android:id="@+id/forgetPasswordFragment"
         android:name="com.android.vaccineregister.ForgetPasswordFragment"
-        android:label="fragment_forget_password"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_forget_password">
         <action
             android:id="@+id/action_forgetPasswordFragment_to_titlePage"
@@ -94,7 +94,7 @@
     <fragment
         android:id="@+id/registerforVaccineFragment"
         android:name="com.android.vaccineregister.RegisterforVaccineFragment"
-        android:label="fragment_registerfor_vaccine"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_registerfor_vaccine">
         <action
             android:id="@+id/action_registerforVaccineFragment_to_registerforVaccineP2"
@@ -103,7 +103,7 @@
     <fragment
         android:id="@+id/registerforVaccineP2"
         android:name="com.android.vaccineregister.RegisterforVaccineP2"
-        android:label="fragment_registerfor_vaccine_p2"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_registerfor_vaccine_p2">
         <action
             android:id="@+id/action_registerforVaccineP2_to_postLoginHomepageFragment"
@@ -120,4 +120,14 @@
         <argument android:name="id_number" />
         <argument android:name="address" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutusFragment"
+        android:name="com.android.vaccineregister.AboutusFragment"
+        android:label="fragment_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/contactusFragment"
+        android:name="com.android.vaccineregister.ContactusFragment"
+        android:label="fragment_contactus"
+        tools:layout="@layout/fragment_contactus" />
 </navigation>
