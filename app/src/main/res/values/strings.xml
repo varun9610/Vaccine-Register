@@ -48,4 +48,5 @@
     <string name="string_next">Next</string>
     <string name="string_forgot_password">Forgot your password?</string>
     <string name="hint_enter_email">Enter Email</string>
+    <string name="string_appointment">Pick an Appointment Date</string>
 </resources>

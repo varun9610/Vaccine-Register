@@ -16,6 +16,13 @@
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/layout/fragment_title_page.xml" value="0.2743589743589744" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/menu/after_login.xml" value="0.2743589743589744" />
         <entry key="..\:/Users/varun/AndroidStudioProjects/VaccineRegister/app/src/main/res/menu/before_login.xml" value="0.2743589743589744" />
+        <entry key="app/src/main/res/layout/fragment_contactus.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_locate_centers.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_post_login_homepage.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_registerfor_vaccine.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_registration.xml" value="0.49895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_status.xml" value="0.49895833333333334" />
       </map>
     </option>
   </component>
