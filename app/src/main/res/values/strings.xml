@@ -49,4 +49,8 @@
     <string name="string_forgot_password">Forgot your password?</string>
     <string name="hint_enter_email">Enter Email</string>
     <string name="string_appointment">Pick an Appointment Date</string>
+    <string name="string_guidline_header">Here are some guidelines to protect against COVID 19</string>
+    <string name="string_wash_hands">Always wash your hands for 30 seconds!</string>
+    <string name="string_wear_a_mask">Always wear a mask </string>
+    <string name="string_maintain_distance">Always maintain a minimum of 2M distance</string>
 </resources>

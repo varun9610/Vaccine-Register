@@ -123,11 +123,16 @@
     <fragment
         android:id="@+id/aboutusFragment"
         android:name="com.android.vaccineregister.AboutusFragment"
-        android:label="fragment_aboutus"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_aboutus" />
     <fragment
         android:id="@+id/contactusFragment"
         android:name="com.android.vaccineregister.ContactusFragment"
-        android:label="fragment_contactus"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/guidelineFragment"
+        android:name="com.android.vaccineregister.GuidelineFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_guideline" />
 </navigation>
