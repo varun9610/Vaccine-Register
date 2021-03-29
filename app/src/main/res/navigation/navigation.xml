@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_loginFragment_to_forgetPasswordFragment"
             app:destination="@id/forgetPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_postLoginHomepageFragment"
+            app:destination="@id/postLoginHomepageFragment" />
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
