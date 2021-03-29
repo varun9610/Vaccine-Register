@@ -53,4 +53,5 @@
     <string name="string_wash_hands">Always wash your hands for 30 seconds!</string>
     <string name="string_wear_a_mask">Always wear a mask </string>
     <string name="string_maintain_distance">Always maintain a minimum of 2M distance</string>
+    <string name="string_vaccine_status">Vaccine Approval Status</string>
 </resources>
